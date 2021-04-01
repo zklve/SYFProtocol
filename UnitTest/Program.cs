@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SYFProtocol;
+using System;
 
 namespace UnitTest
 {
@@ -7,6 +8,8 @@ namespace UnitTest
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Sample.ModbusTcpMasterReadInputs();
+
             Console.ReadLine();
         }
     }
